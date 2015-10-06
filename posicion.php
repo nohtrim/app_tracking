@@ -1,12 +1,17 @@
 <?php
 class Posicion
 {
-    private $model;
-    public function __construct($model) {
-        $this->model = $model;
+    private $latitud;
+    private $longitud;
+    private $hora;
+    
+    public function __construct($latitud, $longitud, $hora) {
+        $this->latitud = $latitud;
+        $this->longitud = $longitud;
+        $this->hora = $hora;
     }
-    public function clicked() {
-    	$this->model->string = "Updated Data, thanks to MVC and PHP!";
+    public function mostrar() {
+    	$this->model->string = "Posicion: latitud: ".$latitud." longitud: ".$longitud." hora: ".$hora;
     }
 }
 ?>
