@@ -9,3 +9,4 @@ class Controller
     	$this->model->string = "Updated Data, thanks to MVC and PHP!";
     }
 }
+?>
