@@ -1,5 +1,5 @@
 <?php
-class Controller
+class Usuario
 {
     private $model;
     public function __construct($model) {
