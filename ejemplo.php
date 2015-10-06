@@ -11,8 +11,4 @@
         $controller->{$_GET['action']}();
     }
     echo $view->output();
-    
-    
-    echo 'muerte a ruben';
-    echo "sergio, te vas a la mierda";
 ?>
